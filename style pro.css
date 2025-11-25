@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  justify-content: center;
+}
+.head h1 {
+  text-align: center;
+  color: rgb(114, 177, 202);
+  margin-top: 50px;
+}
+.box {
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+  height: auto;
+  padding: 10px 20px;
+  margin-inline: auto;
+}
+.Social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.Social i {
+  font-size: 20px;
+}
+p {
+  text-align: center;
+  color: rgb(196, 189, 189);
+}
+.Social div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(226, 224, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(221, 232, 221);
+}
+.sign {
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
+.sign button {
+  width: 50%;
+  height: 40px;
+  background-color: rgb(155, 197, 214);
+  border: none;
+  border-radius: 20px;
+}

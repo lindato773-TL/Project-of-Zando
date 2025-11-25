@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  width: 50%;
+  height: auto;
+  background-color: white;
+  padding: 30px 60px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.container.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid pink;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 30px;
+}
+.remember .remember-me input {
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+}
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.remember div a {
+  text-decoration: none;
+  color: pink;
+  font-size: 15px;
+}
+.form-container button {
+  background: skyblue;
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  /* cursor: pointer; */
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  margin-top: 30px;
+}
+h2,
+p {
+  text-align: center;
+}
+.social-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-buttons button {
+  width: 100%;
+  margin: 0 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.twitter {
+  background: #1da1f2;
+}
+.facebook {
+  background: #3b5998;
+}
+.google {
+  background: #db4437;
+}
+.register-link {
+  margin-top: 25px;
+  font-size: 14px;
+}
+hr {
+  margin-top: 40px;
+}
+.end {
+  text-align: center;
+  padding: 30px;
+}
+.end a {
+  text-decoration: none;
+  color: pink;
+  font-size: 15px;
+}
+.Register {
+  margin-top: 10px;
+  background: skyblue;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  /* cursor: pointer; */
+}
+.footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

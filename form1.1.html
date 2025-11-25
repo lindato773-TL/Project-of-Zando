@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        a{ color: red;}
+        /* === NEW CSS FOR FORM LAYOUT === */
+        .form-row {
+            display: flex; /* Use Flexbox for alignment */
+            margin-bottom: 10px; /* Space between rows */
+            align-items: center; /* Vertically center items */
+        }
+        .form-row label {
+            width: 80px; /* Set a fixed width for all labels to align inputs */
+            text-align: left; /* Align label text to the left */
+            padding-right: 10px; /* Space between label and input */
+        }
+        .form-row input[type="text"], 
+        .form-row input[type="password"],
+        .form-row textarea {
+            flex-grow: 1; /* Make inputs take up the remaining space */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            width: 100%; /* Ensure they stretch within the flex item */
+            padding: 5px; /* Add some internal padding */
+        }
+        .form-row textarea {
+            height: 100px; /* Give the textarea more vertical space */
+        }
+    </style>
+</head>
+<body>
+    <fieldset width="50%">
+        <p align="center">
+            <a href="">ទំព័រដើម</a>
+            <a href="">ទូរស័ព្ទ ​និង​​ Tablets </a>&ensp;
+            <a href="">កុំព្យូទ័រ</a>&ensp;
+            <a href="">ទូរស័ព្ព</a>&ensp;
+            <a href="">ទីតាំង</a>&ensp;
+        </p>
+        <table width="100%"> <tr>
+                <td align="left" width="60%">ម៉ាស៊ីនបោកខោអាវមានទ្វារបើកខាងមុខ និងចានបោកទទឹង បោក បាន 8.5Kgប្រើចលនាបោកដោយខ្សែ Curoa ដំណើរការបានល្អ ម៉ាស៊ីនបោកខោអាវមាន 6 កម្មវិធីបោកយ៉ាងទំនើប ល្បឿនបង្វិល 1200 ជុំ/នាទី ដំណើរការល្អ បោកបានស្អាត បច្ចេកវិទ្យា Greatwave ផ្តល់កម្លាំងទឹកខ្លាំងពូកែពេលបោក តារាងបញ្ហាប្រើប្រាស់យ៉ាងងាយស្រួល
+                </td>
+                <th align="right" width="40%"><img src="Screenshot 2025-10-20 233530.png" width="90%">
+                </th>
+            </tr>
+        </table>
+        <hr>
+        <h2 align="center">Contact Us</h2>
+        <table width="100%">
+            <tr>
+                <td align="left" width="60%"> <form action="">
+                    
+                        <div class="form-row">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Name" Required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="Email" Required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Passwort" Required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="website">Website</label>
+                            <input type="text" id="website" placeholder="www.jnfo.com" Required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="form-row" style="justify-content: flex-end;"> 
+                             <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </td> 
+                <th width="40%"> <p align="right"><img src="Screenshot 2025-10-21 000335.png" width="80%" alt=""></p>
+                </th>
+            </tr>
+        </table>
+        <p align="center">
+            <img src="Screenshot 2025-10-21 173054.png" alt="">
+        </p>
+    </fieldset>
+</body>
+</html>

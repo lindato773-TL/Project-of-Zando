@@ -1,0 +1,20 @@
+.cellspacing use for ដកឃ្លា for pic
+.box-sizing: border-box រក្សាទំហំbox កុំអោយវាប្រែប្រួល
+.grid-template-columns:កំណត់column and width
+.grid-template-row:កំណត់ចំនួន Row andheight
+when we align text we can use flex or grid for letter in center(display:gird,flex) in css
+.link rel="stylesheet" href=" use for connect to css"
+.font-width:​កម្រាស់អក្សរ
+for create box use width and height
+.Margin-inline:Auto oy vea tv krav
+box-shadow:ស្រមោលbox krav(at inset ស្រមោលក្នុង)
+box-radius: box កោង
+select id dak # pi mok
+padding oy aksor nk kondal
+justify-content:center(vea tv kondal) start (start from left)space between (vea tv right muy left muy jom hor kon dal)space-evently (jek knea smer)
+text-align:start use for start paaragraph
+display:fle oy vea nk sorg khang smer knea
+align-item: ak y ak chor 
+.magin: 15px auto(oy vea mk kon dal and komleat ler krom 15px and right and left auto )
+
+vh use for full browser

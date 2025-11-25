@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0" />
+    <title>Inline style</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1
+      style="
+        color: pink;
+        text-shadow: 5px 3px 10px black;
+        text-align: center;
+        font-size: 50px;
+      "
+    >
+      Inline style
+    </h1>
+
+    <div
+      style="
+        width: 600px;
+        height: 800px;
+        margin-inline: auto;
+        box-shadow: 0px 0px 30px gray;
+        border-radius: 50px 0px 50px 0px;
+        padding: 20px;
+      "
+    >
+      <h2 style="text-align: center; font-size: 40px">
+        Welcome to ETEC center
+      </h2>
+      <img
+        src="data:image/jpeg;base64,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"
+        alt=""
+        style="width: 100%"
+      />
+      <div
+        style="width: 100%; height: 100px; border: 3px solid gray; padding: 3px"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+          molestiae minima ut illo debitis pariatur tempora adipisci optio sit
+          quae aperiam eos, mollitia nulla eligendi consequuntur deleniti esse
+          reprehenderit maiores.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
